@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3B917C20F4204200C3CCBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B917B20F4204200C3CCBD /* AppDelegate.m */; };
+		0A3B917F20F4204200C3CCBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B917E20F4204200C3CCBD /* ViewController.m */; };
+		0A3B918220F4204200C3CCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B918020F4204200C3CCBD /* Main.storyboard */; };
+		0A3B918420F4204300C3CCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B918320F4204300C3CCBD /* Assets.xcassets */; };
+		0A3B918720F4204300C3CCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B918520F4204300C3CCBD /* LaunchScreen.storyboard */; };
+		0A3B918A20F4204300C3CCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B918920F4204300C3CCBD /* main.m */; };
+		0A3B919420F4204300C3CCBD /* InstayamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919320F4204300C3CCBD /* InstayamTests.m */; };
+		0A3B919F20F4204300C3CCBD /* InstayamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919E20F4204300C3CCBD /* InstayamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3B919020F4204300C3CCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3B916F20F4204200C3CCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3B917620F4204200C3CCBD;
+			remoteInfo = Instayam;
+		};
+		0A3B919B20F4204300C3CCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3B916F20F4204200C3CCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3B917620F4204200C3CCBD;
+			remoteInfo = Instayam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3B917720F4204200C3CCBD /* Instayam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instayam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3B917A20F4204200C3CCBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A3B917B20F4204200C3CCBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A3B917D20F4204200C3CCBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A3B917E20F4204200C3CCBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A3B918120F4204200C3CCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A3B918320F4204300C3CCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A3B918620F4204300C3CCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A3B918820F4204300C3CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3B918920F4204300C3CCBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A3B918F20F4204300C3CCBD /* InstayamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstayamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3B919320F4204300C3CCBD /* InstayamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstayamTests.m; sourceTree = "<group>"; };
+		0A3B919520F4204300C3CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3B919A20F4204300C3CCBD /* InstayamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstayamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3B919E20F4204300C3CCBD /* InstayamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstayamUITests.m; sourceTree = "<group>"; };
+		0A3B91A020F4204300C3CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3B917420F4204200C3CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3B918C20F4204300C3CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3B919720F4204300C3CCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3B916E20F4204200C3CCBD = {
+			isa = PBXGroup;
+			children = (
+				0A3B917920F4204200C3CCBD /* Instayam */,
+				0A3B919220F4204300C3CCBD /* InstayamTests */,
+				0A3B919D20F4204300C3CCBD /* InstayamUITests */,
+				0A3B917820F4204200C3CCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3B917820F4204200C3CCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3B917720F4204200C3CCBD /* Instayam.app */,
+				0A3B918F20F4204300C3CCBD /* InstayamTests.xctest */,
+				0A3B919A20F4204300C3CCBD /* InstayamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3B917920F4204200C3CCBD /* Instayam */ = {
+			isa = PBXGroup;
+			children = (
+				0A3B917A20F4204200C3CCBD /* AppDelegate.h */,
+				0A3B917B20F4204200C3CCBD /* AppDelegate.m */,
+				0A3B917D20F4204200C3CCBD /* ViewController.h */,
+				0A3B917E20F4204200C3CCBD /* ViewController.m */,
+				0A3B918020F4204200C3CCBD /* Main.storyboard */,
+				0A3B918320F4204300C3CCBD /* Assets.xcassets */,
+				0A3B918520F4204300C3CCBD /* LaunchScreen.storyboard */,
+				0A3B918820F4204300C3CCBD /* Info.plist */,
+				0A3B918920F4204300C3CCBD /* main.m */,
+			);
+			path = Instayam;
+			sourceTree = "<group>";
+		};
+		0A3B919220F4204300C3CCBD /* InstayamTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3B919320F4204300C3CCBD /* InstayamTests.m */,
+				0A3B919520F4204300C3CCBD /* Info.plist */,
+			);
+			path = InstayamTests;
+			sourceTree = "<group>";
+		};
+		0A3B919D20F4204300C3CCBD /* InstayamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A3B919E20F4204300C3CCBD /* InstayamUITests.m */,
+				0A3B91A020F4204300C3CCBD /* Info.plist */,
+			);
+			path = InstayamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3B917620F4204200C3CCBD /* Instayam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3B91A320F4204300C3CCBD /* Build configuration list for PBXNativeTarget "Instayam" */;
+			buildPhases = (
+				0A3B917320F4204200C3CCBD /* Sources */,
+				0A3B917420F4204200C3CCBD /* Frameworks */,
+				0A3B917520F4204200C3CCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instayam;
+			productName = Instayam;
+			productReference = 0A3B917720F4204200C3CCBD /* Instayam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A3B918E20F4204300C3CCBD /* InstayamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3B91A620F4204300C3CCBD /* Build configuration list for PBXNativeTarget "InstayamTests" */;
+			buildPhases = (
+				0A3B918B20F4204300C3CCBD /* Sources */,
+				0A3B918C20F4204300C3CCBD /* Frameworks */,
+				0A3B918D20F4204300C3CCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3B919120F4204300C3CCBD /* PBXTargetDependency */,
+			);
+			name = InstayamTests;
+			productName = InstayamTests;
+			productReference = 0A3B918F20F4204300C3CCBD /* InstayamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A3B919920F4204300C3CCBD /* InstayamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3B91A920F4204300C3CCBD /* Build configuration list for PBXNativeTarget "InstayamUITests" */;
+			buildPhases = (
+				0A3B919620F4204300C3CCBD /* Sources */,
+				0A3B919720F4204300C3CCBD /* Frameworks */,
+				0A3B919820F4204300C3CCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A3B919C20F4204300C3CCBD /* PBXTargetDependency */,
+			);
+			name = InstayamUITests;
+			productName = InstayamUITests;
+			productReference = 0A3B919A20F4204300C3CCBD /* InstayamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3B916F20F4204200C3CCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nkenna Aniedobe";
+				TargetAttributes = {
+					0A3B917620F4204200C3CCBD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0A3B918E20F4204300C3CCBD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A3B917620F4204200C3CCBD;
+					};
+					0A3B919920F4204300C3CCBD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A3B917620F4204200C3CCBD;
+					};
+				};
+			};
+			buildConfigurationList = 0A3B917220F4204200C3CCBD /* Build configuration list for PBXProject "Instayam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A3B916E20F4204200C3CCBD;
+			productRefGroup = 0A3B917820F4204200C3CCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3B917620F4204200C3CCBD /* Instayam */,
+				0A3B918E20F4204300C3CCBD /* InstayamTests */,
+				0A3B919920F4204300C3CCBD /* InstayamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3B917520F4204200C3CCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3B918720F4204300C3CCBD /* LaunchScreen.storyboard in Resources */,
+				0A3B918420F4204300C3CCBD /* Assets.xcassets in Resources */,
+				0A3B918220F4204200C3CCBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3B918D20F4204300C3CCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3B919820F4204300C3CCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3B917320F4204200C3CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3B917F20F4204200C3CCBD /* ViewController.m in Sources */,
+				0A3B918A20F4204300C3CCBD /* main.m in Sources */,
+				0A3B917C20F4204200C3CCBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3B918B20F4204300C3CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3B919420F4204300C3CCBD /* InstayamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3B919620F4204300C3CCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3B919F20F4204300C3CCBD /* InstayamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A3B919120F4204300C3CCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3B917620F4204200C3CCBD /* Instayam */;
+			targetProxy = 0A3B919020F4204300C3CCBD /* PBXContainerItemProxy */;
+		};
+		0A3B919C20F4204300C3CCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3B917620F4204200C3CCBD /* Instayam */;
+			targetProxy = 0A3B919B20F4204300C3CCBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A3B918020F4204200C3CCBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3B918120F4204200C3CCBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A3B918520F4204300C3CCBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3B918620F4204300C3CCBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A3B91A120F4204300C3CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A3B91A220F4204300C3CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3B91A420F4204300C3CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Instayam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FBU-2018.Instayam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A3B91A520F4204300C3CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Instayam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FBU-2018.Instayam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A3B91A720F4204300C3CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstayamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FBU-2018.InstayamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instayam.app/Instayam";
+			};
+			name = Debug;
+		};
+		0A3B91A820F4204300C3CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstayamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FBU-2018.InstayamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instayam.app/Instayam";
+			};
+			name = Release;
+		};
+		0A3B91AA20F4204300C3CCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstayamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FBU-2018.InstayamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instayam;
+			};
+			name = Debug;
+		};
+		0A3B91AB20F4204300C3CCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InstayamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FBU-2018.InstayamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Instayam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3B917220F4204200C3CCBD /* Build configuration list for PBXProject "Instayam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3B91A120F4204300C3CCBD /* Debug */,
+				0A3B91A220F4204300C3CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3B91A320F4204300C3CCBD /* Build configuration list for PBXNativeTarget "Instayam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3B91A420F4204300C3CCBD /* Debug */,
+				0A3B91A520F4204300C3CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3B91A620F4204300C3CCBD /* Build configuration list for PBXNativeTarget "InstayamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3B91A720F4204300C3CCBD /* Debug */,
+				0A3B91A820F4204300C3CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3B91A920F4204300C3CCBD /* Build configuration list for PBXNativeTarget "InstayamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3B91AA20F4204300C3CCBD /* Debug */,
+				0A3B91AB20F4204300C3CCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3B916F20F4204200C3CCBD /* Project object */;
+}
