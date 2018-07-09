@@ -15,6 +15,9 @@
 		0A3B918A20F4204300C3CCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B918920F4204300C3CCBD /* main.m */; };
 		0A3B919420F4204300C3CCBD /* InstayamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919320F4204300C3CCBD /* InstayamTests.m */; };
 		0A3B919F20F4204300C3CCBD /* InstayamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919E20F4204300C3CCBD /* InstayamUITests.m */; };
+		440684791EDA49B4BF2C8AD4 /* libPods-InstayamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */; };
+		67A12139331E5819BD24AC37 /* libPods-InstayamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A26CB2DB9E4819C25DECF0A /* libPods-InstayamTests.a */; };
+		EAFDFFF12392655CFA60F367 /* libPods-Instayam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAF4DEC76262B4CB0D36988 /* libPods-Instayam.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03DAB94C307FC29973AB5F20 /* Pods-InstayamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstayamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstayamUITests/Pods-InstayamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0592C3370A732FB71192C300 /* Pods-InstayamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstayamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstayamTests/Pods-InstayamTests.release.xcconfig"; sourceTree = "<group>"; };
 		0A3B917720F4204200C3CCBD /* Instayam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instayam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3B917A20F4204200C3CCBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A3B917B20F4204200C3CCBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		0A3B919A20F4204300C3CCBD /* InstayamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstayamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3B919E20F4204300C3CCBD /* InstayamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstayamUITests.m; sourceTree = "<group>"; };
 		0A3B91A020F4204300C3CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24039026AF5406786DC2C316 /* Pods-Instayam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instayam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instayam/Pods-Instayam.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstayamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5945E4F98115F60DCD4C91B0 /* Pods-Instayam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instayam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instayam/Pods-Instayam.release.xcconfig"; sourceTree = "<group>"; };
+		67FF2D8EB76B2E0515FD5119 /* Pods-InstayamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstayamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstayamUITests/Pods-InstayamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A26CB2DB9E4819C25DECF0A /* libPods-InstayamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstayamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAF4DEC76262B4CB0D36988 /* libPods-Instayam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Instayam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94F0138783E2C2971E61022 /* Pods-InstayamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstayamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstayamTests/Pods-InstayamTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFDFFF12392655CFA60F367 /* libPods-Instayam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A12139331E5819BD24AC37 /* libPods-InstayamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440684791EDA49B4BF2C8AD4 /* libPods-InstayamUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				0A3B919220F4204300C3CCBD /* InstayamTests */,
 				0A3B919D20F4204300C3CCBD /* InstayamUITests */,
 				0A3B917820F4204200C3CCBD /* Products */,
+				244EBD57BE195AC1071EB193 /* Pods */,
+				A6BBD482EC242C8DCFA5E8EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = InstayamUITests;
 			sourceTree = "<group>";
 		};
+		244EBD57BE195AC1071EB193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24039026AF5406786DC2C316 /* Pods-Instayam.debug.xcconfig */,
+				5945E4F98115F60DCD4C91B0 /* Pods-Instayam.release.xcconfig */,
+				D94F0138783E2C2971E61022 /* Pods-InstayamTests.debug.xcconfig */,
+				0592C3370A732FB71192C300 /* Pods-InstayamTests.release.xcconfig */,
+				03DAB94C307FC29973AB5F20 /* Pods-InstayamUITests.debug.xcconfig */,
+				67FF2D8EB76B2E0515FD5119 /* Pods-InstayamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6BBD482EC242C8DCFA5E8EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FAF4DEC76262B4CB0D36988 /* libPods-Instayam.a */,
+				7A26CB2DB9E4819C25DECF0A /* libPods-InstayamTests.a */,
+				2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A3B91A320F4204300C3CCBD /* Build configuration list for PBXNativeTarget "Instayam" */;
 			buildPhases = (
+				C54FE0BBBFD2966D3057D0B9 /* [CP] Check Pods Manifest.lock */,
 				0A3B917320F4204200C3CCBD /* Sources */,
 				0A3B917420F4204200C3CCBD /* Frameworks */,
 				0A3B917520F4204200C3CCBD /* Resources */,
+				3E9EC2934490A14CED7F704C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A3B91A620F4204300C3CCBD /* Build configuration list for PBXNativeTarget "InstayamTests" */;
 			buildPhases = (
+				52A180B01305A0F93C8B84BC /* [CP] Check Pods Manifest.lock */,
 				0A3B918B20F4204300C3CCBD /* Sources */,
 				0A3B918C20F4204300C3CCBD /* Frameworks */,
 				0A3B918D20F4204300C3CCBD /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A3B91A920F4204300C3CCBD /* Build configuration list for PBXNativeTarget "InstayamUITests" */;
 			buildPhases = (
+				11714030B24ABA05D6597B2E /* [CP] Check Pods Manifest.lock */,
 				0A3B919620F4204300C3CCBD /* Sources */,
 				0A3B919720F4204300C3CCBD /* Frameworks */,
 				0A3B919820F4204300C3CCBD /* Resources */,
@@ -256,6 +300,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11714030B24ABA05D6597B2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstayamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9EC2934490A14CED7F704C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Instayam/Pods-Instayam-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instayam/Pods-Instayam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A180B01305A0F93C8B84BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstayamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54FE0BBBFD2966D3057D0B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instayam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A3B917320F4204200C3CCBD /* Sources */ = {
@@ -431,6 +550,7 @@
 		};
 		0A3B91A420F4204300C3CCBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24039026AF5406786DC2C316 /* Pods-Instayam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +567,7 @@
 		};
 		0A3B91A520F4204300C3CCBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5945E4F98115F60DCD4C91B0 /* Pods-Instayam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +584,7 @@
 		};
 		0A3B91A720F4204300C3CCBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94F0138783E2C2971E61022 /* Pods-InstayamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +603,7 @@
 		};
 		0A3B91A820F4204300C3CCBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0592C3370A732FB71192C300 /* Pods-InstayamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +622,7 @@
 		};
 		0A3B91AA20F4204300C3CCBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DAB94C307FC29973AB5F20 /* Pods-InstayamUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstayamUITests/Info.plist;
@@ -516,6 +640,7 @@
 		};
 		0A3B91AB20F4204300C3CCBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FF2D8EB76B2E0515FD5119 /* Pods-InstayamUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstayamUITests/Info.plist;
