@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0A3B917C20F4204200C3CCBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B917B20F4204200C3CCBD /* AppDelegate.m */; };
-		0A3B917F20F4204200C3CCBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B917E20F4204200C3CCBD /* ViewController.m */; };
 		0A3B918220F4204200C3CCBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B918020F4204200C3CCBD /* Main.storyboard */; };
 		0A3B918420F4204300C3CCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B918320F4204300C3CCBD /* Assets.xcassets */; };
 		0A3B918720F4204300C3CCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B918520F4204300C3CCBD /* LaunchScreen.storyboard */; };
 		0A3B918A20F4204300C3CCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B918920F4204300C3CCBD /* main.m */; };
 		0A3B919420F4204300C3CCBD /* InstayamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919320F4204300C3CCBD /* InstayamTests.m */; };
 		0A3B919F20F4204300C3CCBD /* InstayamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919E20F4204300C3CCBD /* InstayamUITests.m */; };
+		0AE1E14120F4292000383CC8 /* instagram_assets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1E14020F4292000383CC8 /* instagram_assets */; };
+		0AE1E14520F42EDC00383CC8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14420F42EDC00383CC8 /* LoginViewController.m */; };
+		0AE1E14820F432B900383CC8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14720F432B900383CC8 /* SignUpViewController.m */; };
 		440684791EDA49B4BF2C8AD4 /* libPods-InstayamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */; };
 		67A12139331E5819BD24AC37 /* libPods-InstayamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A26CB2DB9E4819C25DECF0A /* libPods-InstayamTests.a */; };
 		EAFDFFF12392655CFA60F367 /* libPods-Instayam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAF4DEC76262B4CB0D36988 /* libPods-Instayam.a */; };
@@ -43,8 +45,6 @@
 		0A3B917720F4204200C3CCBD /* Instayam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instayam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3B917A20F4204200C3CCBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A3B917B20F4204200C3CCBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A3B917D20F4204200C3CCBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A3B917E20F4204200C3CCBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A3B918120F4204200C3CCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A3B918320F4204300C3CCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3B918620F4204300C3CCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,11 @@
 		0A3B919A20F4204300C3CCBD /* InstayamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstayamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3B919E20F4204300C3CCBD /* InstayamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstayamUITests.m; sourceTree = "<group>"; };
 		0A3B91A020F4204300C3CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE1E14020F4292000383CC8 /* instagram_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = instagram_assets; path = ../../../Downloads/instagram_assets; sourceTree = "<group>"; };
+		0AE1E14320F42EDC00383CC8 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0AE1E14420F42EDC00383CC8 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0AE1E14620F432B900383CC8 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		0AE1E14720F432B900383CC8 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		24039026AF5406786DC2C316 /* Pods-Instayam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instayam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instayam/Pods-Instayam.debug.xcconfig"; sourceTree = "<group>"; };
 		2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstayamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5945E4F98115F60DCD4C91B0 /* Pods-Instayam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instayam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instayam/Pods-Instayam.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,13 +125,13 @@
 			children = (
 				0A3B917A20F4204200C3CCBD /* AppDelegate.h */,
 				0A3B917B20F4204200C3CCBD /* AppDelegate.m */,
-				0A3B917D20F4204200C3CCBD /* ViewController.h */,
-				0A3B917E20F4204200C3CCBD /* ViewController.m */,
 				0A3B918020F4204200C3CCBD /* Main.storyboard */,
 				0A3B918320F4204300C3CCBD /* Assets.xcassets */,
 				0A3B918520F4204300C3CCBD /* LaunchScreen.storyboard */,
 				0A3B918820F4204300C3CCBD /* Info.plist */,
 				0A3B918920F4204300C3CCBD /* main.m */,
+				0AE1E14220F42EBF00383CC8 /* Views */,
+				0AE1E14020F4292000383CC8 /* instagram_assets */,
 			);
 			path = Instayam;
 			sourceTree = "<group>";
@@ -147,6 +152,17 @@
 				0A3B91A020F4204300C3CCBD /* Info.plist */,
 			);
 			path = InstayamUITests;
+			sourceTree = "<group>";
+		};
+		0AE1E14220F42EBF00383CC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AE1E14320F42EDC00383CC8 /* LoginViewController.h */,
+				0AE1E14420F42EDC00383CC8 /* LoginViewController.m */,
+				0AE1E14620F432B900383CC8 /* SignUpViewController.h */,
+				0AE1E14720F432B900383CC8 /* SignUpViewController.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		244EBD57BE195AC1071EB193 /* Pods */ = {
@@ -279,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE1E14120F4292000383CC8 /* instagram_assets in Resources */,
 				0A3B918720F4204300C3CCBD /* LaunchScreen.storyboard in Resources */,
 				0A3B918420F4204300C3CCBD /* Assets.xcassets in Resources */,
 				0A3B918220F4204200C3CCBD /* Main.storyboard in Resources */,
@@ -381,9 +398,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3B917F20F4204200C3CCBD /* ViewController.m in Sources */,
 				0A3B918A20F4204300C3CCBD /* main.m in Sources */,
 				0A3B917C20F4204200C3CCBD /* AppDelegate.m in Sources */,
+				0AE1E14820F432B900383CC8 /* SignUpViewController.m in Sources */,
+				0AE1E14520F42EDC00383CC8 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
