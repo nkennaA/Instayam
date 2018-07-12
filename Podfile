@@ -7,6 +7,7 @@ target 'Instayam' do
 
   # Pods for Instayam
   pod 'Parse'
+  pod 'ParseUI'
 
   target 'InstayamTests' do
     inherit! :search_paths

@@ -30,10 +30,13 @@
             NSLog(@"User log in failed: %@", error.localizedDescription);
         } else {
             NSLog(@"User logged in successfully");
-            
+            [self performSegueWithIdentifier:@"instayamSegue" sender:self];
             // display view controller that needs to shown after successful login
         }
     }];
+}
+- (IBAction)doneLogin:(id)sender {
+    [self.view endEditing:YES];
 }
 
 - (void)viewDidLoad {

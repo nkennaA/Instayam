@@ -22,6 +22,9 @@
     [self performSegueWithIdentifier:@"signedUp" sender:self];
     
 }
+- (IBAction)didTapOut:(id)sender {
+    [self.view endEditing:YES];
+}
 - (void)registerUser {
     // initialize a user object
     PFUser *newUser = [PFUser user];

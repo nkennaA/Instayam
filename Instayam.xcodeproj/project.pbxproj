@@ -17,6 +17,10 @@
 		0AE1E14120F4292000383CC8 /* instagram_assets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1E14020F4292000383CC8 /* instagram_assets */; };
 		0AE1E14520F42EDC00383CC8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14420F42EDC00383CC8 /* LoginViewController.m */; };
 		0AE1E14820F432B900383CC8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14720F432B900383CC8 /* SignUpViewController.m */; };
+		0AE1E14B20F43AA400383CC8 /* InstayamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14A20F43AA400383CC8 /* InstayamViewController.m */; };
+		0AE1E14E20F54C8400383CC8 /* ComppseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14D20F54C8400383CC8 /* ComppseViewController.m */; };
+		0AE1E15420F5577D00383CC8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E15320F5577D00383CC8 /* Post.m */; };
+		0AF6486F20F5762900ACC2E8 /* postCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6486E20F5762900ACC2E8 /* postCellTableViewCell.m */; };
 		440684791EDA49B4BF2C8AD4 /* libPods-InstayamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */; };
 		67A12139331E5819BD24AC37 /* libPods-InstayamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A26CB2DB9E4819C25DECF0A /* libPods-InstayamTests.a */; };
 		EAFDFFF12392655CFA60F367 /* libPods-Instayam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAF4DEC76262B4CB0D36988 /* libPods-Instayam.a */; };
@@ -61,6 +65,14 @@
 		0AE1E14420F42EDC00383CC8 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0AE1E14620F432B900383CC8 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		0AE1E14720F432B900383CC8 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		0AE1E14920F43AA400383CC8 /* InstayamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstayamViewController.h; sourceTree = "<group>"; };
+		0AE1E14A20F43AA400383CC8 /* InstayamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstayamViewController.m; sourceTree = "<group>"; };
+		0AE1E14C20F54C8400383CC8 /* ComppseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComppseViewController.h; sourceTree = "<group>"; };
+		0AE1E14D20F54C8400383CC8 /* ComppseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComppseViewController.m; sourceTree = "<group>"; };
+		0AE1E15220F5577D00383CC8 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		0AE1E15320F5577D00383CC8 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		0AF6486D20F5762900ACC2E8 /* postCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postCellTableViewCell.h; sourceTree = "<group>"; };
+		0AF6486E20F5762900ACC2E8 /* postCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = postCellTableViewCell.m; sourceTree = "<group>"; };
 		24039026AF5406786DC2C316 /* Pods-Instayam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instayam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instayam/Pods-Instayam.debug.xcconfig"; sourceTree = "<group>"; };
 		2CE08EE2C12593D0F795CCB8 /* libPods-InstayamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstayamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5945E4F98115F60DCD4C91B0 /* Pods-Instayam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instayam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instayam/Pods-Instayam.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,10 +138,13 @@
 				0A3B917A20F4204200C3CCBD /* AppDelegate.h */,
 				0A3B917B20F4204200C3CCBD /* AppDelegate.m */,
 				0A3B918020F4204200C3CCBD /* Main.storyboard */,
+				0AF6486D20F5762900ACC2E8 /* postCellTableViewCell.h */,
+				0AF6486E20F5762900ACC2E8 /* postCellTableViewCell.m */,
 				0A3B918320F4204300C3CCBD /* Assets.xcassets */,
 				0A3B918520F4204300C3CCBD /* LaunchScreen.storyboard */,
 				0A3B918820F4204300C3CCBD /* Info.plist */,
 				0A3B918920F4204300C3CCBD /* main.m */,
+				0AE1E15120F5574200383CC8 /* Data Models */,
 				0AE1E14220F42EBF00383CC8 /* Views */,
 				0AE1E14020F4292000383CC8 /* instagram_assets */,
 			);
@@ -161,8 +176,21 @@
 				0AE1E14420F42EDC00383CC8 /* LoginViewController.m */,
 				0AE1E14620F432B900383CC8 /* SignUpViewController.h */,
 				0AE1E14720F432B900383CC8 /* SignUpViewController.m */,
+				0AE1E14920F43AA400383CC8 /* InstayamViewController.h */,
+				0AE1E14A20F43AA400383CC8 /* InstayamViewController.m */,
+				0AE1E14C20F54C8400383CC8 /* ComppseViewController.h */,
+				0AE1E14D20F54C8400383CC8 /* ComppseViewController.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0AE1E15120F5574200383CC8 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AE1E15220F5577D00383CC8 /* Post.h */,
+				0AE1E15320F5577D00383CC8 /* Post.m */,
+			);
+			path = "Data Models";
 			sourceTree = "<group>";
 		};
 		244EBD57BE195AC1071EB193 /* Pods */ = {
@@ -345,10 +373,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Instayam/Pods-Instayam-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+				"${PODS_ROOT}/ParseUI/ParseUI/Resources/Localization/en.lproj",
+				"${PODS_ROOT}/ParseUI/ParseUI/Resources/Localization/fr.lproj",
+				"${PODS_ROOT}/ParseUI/ParseUI/Resources/Localization/pt-BR.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt-BR.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,10 +432,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE1E14E20F54C8400383CC8 /* ComppseViewController.m in Sources */,
 				0A3B918A20F4204300C3CCBD /* main.m in Sources */,
 				0A3B917C20F4204200C3CCBD /* AppDelegate.m in Sources */,
+				0AF6486F20F5762900ACC2E8 /* postCellTableViewCell.m in Sources */,
+				0AE1E14B20F43AA400383CC8 /* InstayamViewController.m in Sources */,
 				0AE1E14820F432B900383CC8 /* SignUpViewController.m in Sources */,
 				0AE1E14520F42EDC00383CC8 /* LoginViewController.m in Sources */,
+				0AE1E15420F5577D00383CC8 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +610,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N29GB8Y55L;
 				INFOPLIST_FILE = Instayam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -589,6 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N29GB8Y55L;
 				INFOPLIST_FILE = Instayam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
