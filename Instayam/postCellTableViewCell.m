@@ -18,7 +18,16 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
+    if(selected){
+        [UIView animateWithDuration:.2 animations:^{
+            self.contentView.backgroundColor = [UIColor grayColor];
+        }];
+    }
+    else{
+        [UIView animateWithDuration:.2 animations:^{
+            self.contentView.backgroundColor = [UIColor whiteColor];
+        }];
+    }
 }
 -(void)setWithPost:(Post *)post{
     self.caption.text = post.caption;

@@ -14,6 +14,7 @@
 		0A3B918A20F4204300C3CCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B918920F4204300C3CCBD /* main.m */; };
 		0A3B919420F4204300C3CCBD /* InstayamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919320F4204300C3CCBD /* InstayamTests.m */; };
 		0A3B919F20F4204300C3CCBD /* InstayamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B919E20F4204300C3CCBD /* InstayamUITests.m */; };
+		0A8F9A7B20F7FC0E00F21CFC /* PostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F9A7A20F7FC0E00F21CFC /* PostDetailViewController.m */; };
 		0AE1E14120F4292000383CC8 /* instagram_assets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1E14020F4292000383CC8 /* instagram_assets */; };
 		0AE1E14520F42EDC00383CC8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14420F42EDC00383CC8 /* LoginViewController.m */; };
 		0AE1E14820F432B900383CC8 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1E14720F432B900383CC8 /* SignUpViewController.m */; };
@@ -60,6 +61,8 @@
 		0A3B919A20F4204300C3CCBD /* InstayamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstayamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3B919E20F4204300C3CCBD /* InstayamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstayamUITests.m; sourceTree = "<group>"; };
 		0A3B91A020F4204300C3CCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8F9A7920F7FC0E00F21CFC /* PostDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostDetailViewController.h; sourceTree = "<group>"; };
+		0A8F9A7A20F7FC0E00F21CFC /* PostDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostDetailViewController.m; sourceTree = "<group>"; };
 		0AE1E14020F4292000383CC8 /* instagram_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = instagram_assets; path = ../../../Downloads/instagram_assets; sourceTree = "<group>"; };
 		0AE1E14320F42EDC00383CC8 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0AE1E14420F42EDC00383CC8 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				0AE1E14A20F43AA400383CC8 /* InstayamViewController.m */,
 				0AE1E14C20F54C8400383CC8 /* ComppseViewController.h */,
 				0AE1E14D20F54C8400383CC8 /* ComppseViewController.m */,
+				0A8F9A7920F7FC0E00F21CFC /* PostDetailViewController.h */,
+				0A8F9A7A20F7FC0E00F21CFC /* PostDetailViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -432,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8F9A7B20F7FC0E00F21CFC /* PostDetailViewController.m in Sources */,
 				0AE1E14E20F54C8400383CC8 /* ComppseViewController.m in Sources */,
 				0A3B918A20F4204300C3CCBD /* main.m in Sources */,
 				0A3B917C20F4204200C3CCBD /* AppDelegate.m in Sources */,
