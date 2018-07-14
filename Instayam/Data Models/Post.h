@@ -8,6 +8,7 @@
 
 #import "PFObject.h"
 #import "Parse.h"
+#import <DateTools.h>
 @interface Post : PFObject<PFSubclassing>
 
 @property (nonatomic, strong) PFUser *author;

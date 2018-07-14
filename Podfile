@@ -8,7 +8,7 @@ target 'Instayam' do
   # Pods for Instayam
   pod 'Parse'
   pod 'ParseUI'
-
+  pod 'DateTools'
   target 'InstayamTests' do
     inherit! :search_paths
     # Pods for testing

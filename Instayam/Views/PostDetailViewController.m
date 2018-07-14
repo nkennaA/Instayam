@@ -7,6 +7,7 @@
 //
 
 #import "PostDetailViewController.h"
+#import <DateTools.h>
 
 @interface PostDetailViewController ()
 
@@ -25,6 +26,9 @@
     self.captionLabel.text = self.post.caption;
     self.postPic.file = self.post.image;
     self.likesLabel.text = [NSString stringWithFormat:@"%@", self.post.likeCount];
+    NSString *posted = @"Posted ";
+    NSString *date = [self.post.createdAt timeAgoSinceNow];
+    self.dateLabel.text = [posted stringByAppendingString:date];
 }
 
 - (void)didReceiveMemoryWarning {

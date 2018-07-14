@@ -41,6 +41,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = self.view.bounds;
+    gradient.colors = @[(id)[UIColor purpleColor].CGColor, (id)[UIColor orangeColor].CGColor];
+    [self.view.layer insertSublayer:gradient atIndex:0];
     // Do any additional setup after loading the view.
 }
 

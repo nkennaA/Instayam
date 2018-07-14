@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *usernameField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (strong, nonatomic) IBOutlet UIView *view;
 
 @end
 
@@ -48,6 +49,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [super viewDidLoad];
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = self.view.bounds;
+    gradient.colors = @[(id)[UIColor purpleColor].CGColor, (id)[UIColor orangeColor].CGColor];
+    [self.view.layer insertSublayer:gradient atIndex:0];
     // Do any additional setup after loading the view.
 }
 
